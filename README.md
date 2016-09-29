@@ -9,6 +9,11 @@ CircleMenuView that have many custom functions
 ![](https://github.com/AlexLiuSheng/CircleMenuView/blob/master/img/Screenshot_2016-09-29-15-36-22-379_com.allenliu.c.png)
 ##如何使用
 ###导入
+
+gradle 
+
+    compile 'com.allenliu:CircleMenuView:1.0.0'(审核中...)
+
 ###使用
 ####xml使用
         <com.allenliu.circlemenuview.CircleMenuView
