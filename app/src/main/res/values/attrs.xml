@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleMenuView" >
+        <!--菜单文字-->
+        <attr name="menu_text" format="reference"></attr>
+        <!--菜单图标-->
+        <attr name="menu_icon" format="reference"></attr>
+        <!--菜单盘块颜色-->
+        <attr name="menu_item_background" format="color"></attr>
+        <attr name="menu_text_color" format="color"></attr>
+        <!--扫边颜色-->
+        <attr name="stroke_color" format="color"></attr>
+        <!--缝隙颜色-->
+        <attr name="gap_color" format="color"></attr>
+        <attr name="gap_size" format="dimension"></attr>
+        <!--扫边宽度-->
+        <attr name="stroke_width" format="dimension"></attr>
+        <!--菜单字体大小-->
+        <attr name="menu_text_size" format="dimension"></attr>
+        <attr name="center_icon" format="reference"></attr>
+        <attr name="center_text" format="string"></attr>
+        <!--内圆半径-->
+        <attr name="inside_cirle_radius" format="dimension"></attr>
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">CircleMenuView</string>
+    <string-array name="text">
+        <item>厉害了</item>
+        <item>我的哥</item>
+        <item>厉害了</item>
+        <item>我的哥</item>
+        <item>厉害了</item>
+        <item>我的哥</item>
+        <item>厉害了</item>
+        <item>我的哥</item>
+        <item>厉害了</item>
+        <item>我的哥</item>
+    </string-array>
+    <string-array name="icon">
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+        <item>@mipmap/ic_launcher</item>
+    </string-array>
+</resources>

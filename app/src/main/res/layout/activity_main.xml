@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.allenliu.circlemenuview.MainActivity">
+
+    <com.allenliu.circlemenuview.CircleMenuView
+        android:id="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_width="400dp"
+        android:padding="20dp"
+        app:center_text="@string/app_name"
+        app:center_icon="@mipmap/ic_launcher"
+        app:menu_text="@array/text"
+        app:menu_icon="@array/icon"
+        app:menu_text_size="12sp"
+        app:menu_text_color="#f2f"
+        app:stroke_color="@color/colorAccent"
+        app:gap_color="@color/colorPrimary"
+        app:stroke_width="2dp"
+        app:menu_item_background="#f7f7"
+        app:gap_size="10dp"
+        app:inside_cirle_radius="75dp"
+        android:layout_height="500dp" />
+</RelativeLayout>
