@@ -53,7 +53,7 @@ gradle
                 .setOnClickListener();//设置每个盘块点击事件
                 
 ##License
-        Copyright 2015 Google, Inc.
+        Copyright 2016 AllenLiu.
 
         Licensed to the Apache Software Foundation (ASF) under one or more contributor
         license agreements. See the NOTICE file distributed with this work for
