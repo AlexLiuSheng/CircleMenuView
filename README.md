@@ -12,7 +12,7 @@ CircleMenuView that have many custom functions
 
 gradle 
 
-    compile 'com.allenliu:CircleMenuView:1.0.0'(审核中...)
+    compile 'com.allenliu:CircleMenuView:1.0.0'
 
 ###使用
 ####xml使用
