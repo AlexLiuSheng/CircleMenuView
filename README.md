@@ -7,15 +7,15 @@ CircleMenuView that have many custom functions
 ![](https://github.com/AlexLiuSheng/CircleMenuView/blob/master/img/Screenshot_2016-09-29-13-12-57-427_com.allenliu.c.png)
 ![](https://github.com/AlexLiuSheng/CircleMenuView/blob/master/img/Screenshot_2016-09-29-13-15-10-260_com.allenliu.c.png)
 ![](https://github.com/AlexLiuSheng/CircleMenuView/blob/master/img/Screenshot_2016-09-29-15-36-22-379_com.allenliu.c.png)
-##如何使用
-###导入
+## 如何使用
+### 导入
 
 gradle 
 
     compile 'com.allenliu:CircleMenuView:1.0.0'
 
-###使用
-####xml使用
+### 使用
+#### xml使用
         <com.allenliu.circlemenuview.CircleMenuView
         android:id="@+id/view"
         android:layout_centerHorizontal="true"
@@ -35,7 +35,7 @@ gradle
         app:inside_cirle_radius="75dp"       //内圆半径 不填默认是外圆的三分之一
         android:layout_height="500dp" />    //宽高如果不一致 取小的
         
-###代码直接实例化
+### 代码直接实例化
          new CircleMenuView(this)
                 .setWidthAndHeight(300, 300)
                 .setCenterText()
@@ -52,7 +52,7 @@ gradle
                 .setStrokeWidth()
                 .setOnClickListener();//设置每个盘块点击事件
                 
-##License
+## License
         Copyright 2016 AllenLiu.
 
         Licensed to the Apache Software Foundation (ASF) under one or more contributor
